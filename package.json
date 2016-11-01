@@ -1,5 +1,6 @@
 {
   "name": "sweetalert2",
+  "version": "0.0.1",
   "private": false,
   "scripts": {
     "build": "echo building... && typings bundle --ambient -o out",
