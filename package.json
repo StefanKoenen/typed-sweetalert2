@@ -1,5 +1,6 @@
 {
-  "private": true,
+  "name": "sweetalert2",
+  "private": false,
   "scripts": {
     "build": "echo building... && typings bundle --ambient -o out",
     "lint": "echo linting... && tslint \"**/*.ts\" -e \"source/**\" -e \"source-test/**\" -e \"out/**\" -e \"node_modules/**\" -e \"typings/**\"",
