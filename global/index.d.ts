@@ -47,6 +47,12 @@ declare module SweetAlert2 {
          */
         input?: string;
 
+        /**
+         * Defines the placeholder of the input on the sweetalert
+         * Default: null
+         */
+        inputPlaceholder?: string;
+
 		/**
 		 * If set to true, loader icon will display on confirmation
 		 * Default: false
@@ -231,7 +237,7 @@ declare module SweetAlert2 {
          * SweetAlert automatically centers itself on the page and looks great no matter if you're using a desktop computer, mobile or tablet. An awesome replacement for JavaScript's alert.
          * @param callback The callback from the users action. The value is true or false if the user confirms or cancels the alert. Except for the type "input", then when the user confirms the alert, the argument contains the value of the input element.
          */
-        (settings: SweetAlertOptions): Promise<boolean>;
+        (settings: SweetAlertOptions): Promise<boolean | any>;
 
 
         /**
